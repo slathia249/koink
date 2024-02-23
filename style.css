@@ -157,3 +157,30 @@ input:checked+label .description {
 .card[for="c5"] {
     background-image: url("https://images.pexels.com/photos/842711/pexels-photo-842711.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
 }
+h5 {
+    font-size: 30px;
+    align-content:right;
+    color: #95ff00;
+    font-family: sans-serif;
+    text-shadow:0px 0px 20px #ffff31;
+  
+}
+​
+#cell {
+    animation: move2 3s forwards ease-in-out;
+    border-left: 2px solid #fbff00;
+​
+​
+}
+​
+@keyframes move2 {
+    from {
+        margin-left: -250px;
+        width: 250px
+    }
+​
+    to {
+        margin-left: 0px;
+        width: 0;
+    }
+}
