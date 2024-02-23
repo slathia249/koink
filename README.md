@@ -1,2 +1,0 @@
-# koink
-my project
